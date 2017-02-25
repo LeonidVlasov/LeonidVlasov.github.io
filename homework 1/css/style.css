@@ -1,0 +1,43 @@
+.main {
+  width: 500px;
+  margin: 0 auto;
+}
+
+img {
+  height: 202px;
+  width: 200px;
+}
+
+.fioinfo {
+  font-family: Arial serif;
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+
+.aboutme {
+  text-align: justify;
+  font-size: 15px;
+}
+
+.wanttolearn {
+  border-bottom: 1px solid grey;
+}
+
+.mypersonaldata {
+  border-bottom: 1px solid grey;
+}
+
+.number {
+  margin-left: 30px;
+}
+
+span {
+  font-weight: bold;
+}
+
+/*.logo {
+float: left;
+  height: 20px;
+  width: 20px;
+
+}*/
