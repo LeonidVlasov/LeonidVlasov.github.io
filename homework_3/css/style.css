@@ -7,22 +7,21 @@ body {
   width: 1060px;
   height: 950px;
   background-color: #ffffff;
-  box-shadow: 0 0 10px #dbdbdb;
+  box-shadow: 0px 0px 10px #dbdbdb;
 }
 
 .logo {
-  margin: 54px 54px;
+  margin: 54px 55px;
 }
 
 .top_menu {
-    height: 40px;
-    width: 968px;
-    margin: -16.5px 54px;
-    background-color: #535252;
+  width: 968px;
+  height: 40px;
+  margin: -16.5px 55px;
+  background-color: #535252;
 }
 
 .t_menu li {
-	list-style: none;
 	margin: 0px 50px 0px 2px;
 	float: left;
 	border-left: 1px solid transparent;
@@ -45,41 +44,54 @@ body {
 }
 
 .t_menu li:nth-child(2) {
-    margin: 0px 50px 0px -14px;
+  margin: 0px 50px 0px -14px;
 }
 
 .t_menu li:nth-child(3) {
-    margin: 0px 50px 0px -12px;
+  margin: 0px 50px 0px -12px;
 }
 
 .t_menu li:last-child {
-    margin: 0px 50px 0px -12px;
+  margin: 0px 50px 0px -12px;
+}
+
+.container {
+  margin-top: 58px;
 }
 
 .left_menu {
-  /*float: left;*/
+  float: left;
 	width: 240px;
-	margin: 58px 0px 0px 54px;
+	margin: 0px 0px 0px 55px;
 }
 
 .left_menu li a {
+  box-sizing: border-box;
   display: block;
-	height: 40px;
+	height: 39px;
 	text-decoration: none;
 	border: 1px solid #c8c8c8;
   border-bottom: 0px;
-	padding: 0px 20px;
-	line-height: 35px;
+	padding: 0px 21px;
+	line-height: 40px;
 	font-size: 13.33px;
   color: #656363;
   border:
+}
+
+.left_menu li:nth-child(4) {
+  height: 41px;
+}
+
+.left_menu li:nth-child(5) {
+  height: 41px;
 }
 
 .left_menu ul:last-child {
 border-bottom: 1px solid #c8c8c8;
 }
 
-.left_menu ul a:hover{
+.left_menu ul a:hover {
   background-color: #f9f9f9;
 	padding-left: 35px;
   color: #2c2c2c;
@@ -90,13 +102,46 @@ border-bottom: 1px solid #c8c8c8;
 	width: 63%;
 	margin-left: 48px;
 }
+
 .content img {
 	padding: 47px 89px;
 	border: 1px solid #c8c8c8;
 }
+
 .content p {
-	margin-left: 20px;
-	margin-top: 24px;
-	line-height: 20px;
+	margin-left: 22px;
+	margin-top: 29px;
+	line-height: 22px;
+	font-size: 13.33px;
+}
+
+footer {
+  margin: 699.5px 47px 60px 47px;
+  width: 968px;
+	height: 40px;
+	background-color: #e1e1e1;
+}
+
+.foot_menu ul li {
+	display: inline-block;
+	margin: 0 64px 0  25px;
+}
+
+.foot_menu ul li a {
+	color: #2c2c2c;
+	text-decoration: none;
+	line-height: 40px;
+	font-size: 13.33px;
+}
+
+.foot_menu ul li a:hover {
+	text-decoration: underline;
+  color: #6a6a6a;
+}
+
+span {
+	float: right;
+	margin-right: 25px;
+	line-height: 40px;
 	font-size: 13.33px;
 }
