@@ -18,6 +18,12 @@ body {
   background-color: #535252;
 }
 
+ul.t_menu::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 .t_menu li {
 	margin: 0px 50px 0px 2px;
 	float: left;
@@ -101,6 +107,7 @@ footer {
 }
 
 .foot_menu ul li {
+  float: left;
 	display: inline-block;
 	margin: 0 64px 0  25px;
 }
