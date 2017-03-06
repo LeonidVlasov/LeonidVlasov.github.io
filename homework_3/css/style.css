@@ -58,9 +58,8 @@ ul.t_menu::after {
 }
 
 .left_menu li a {
-  box-sizing: border-box;
   display: block;
-	height: 39px;
+	height: 40px;
 	text-decoration: none;
 	border: 1px solid #c8c8c8;
   border-bottom: 0px;
@@ -109,7 +108,7 @@ footer {
 .foot_menu ul li {
   float: left;
 	display: inline-block;
-	margin: 0 64px 0  25px;
+	margin: 0px 64px 0px 25px;
 }
 
 .foot_menu ul li a {
@@ -123,6 +122,11 @@ footer {
 	text-decoration: underline;
   color: #6a6a6a;
 }
+
+.foot_menu::after {
+  content: '';
+  display: block;
+  clear: both;}
 
 span {
 	float: right;
