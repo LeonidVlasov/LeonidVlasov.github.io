@@ -1,0 +1,29 @@
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  font-family: tahoma;
+  margin: 38px 120px 38px 142px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1020px;
+  height: 1000px;
+  background-color: #ffffff;
+  padding: 0px 10px;
+}
+
+.lower {
+  margin: 0px auto;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  color: #ffffff;
+}
