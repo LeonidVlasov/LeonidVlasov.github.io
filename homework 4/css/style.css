@@ -8,6 +8,7 @@ body {
   background-image: url(../img/background.jpg);
   font-family: tahoma;
   margin: 38px 120px 38px 142px;
+  
 }
 
 .wrapper {
@@ -19,7 +20,7 @@ body {
 }
 
 .lower {
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .copyright {
