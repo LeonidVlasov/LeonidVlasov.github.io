@@ -4,61 +4,51 @@
   display: block;
 }
 
-/*.google {
-  position: fixed;
-  height: 37px;
+/** { outline: 1px solid red; }*/
+
+.google {
   width: 100%;
-  z-index: 1;
-}*/
+}
 
 body {
   background-image: url(../img/background.jpg);
-  background-size: 100% 100%;
   font-family: tahoma regular;
   font-size: 12px;
-  margin: 38px 120px 38px 142px;
 }
 
 .wrapper {
-  position: relative;
   margin: 0 auto;
   width: 1020px;
   height: 1000px;
   background-color: #ffffff;
-  padding: 0px 10px;
+  line-height: 1;
 }
 
-
+header {
+  padding: 11px 30px 8px 30px;
+}
 
 .logo {
-  position: absolute;
-  top: 11px;
-  left: 37px;
+  float: left;
+  height: 149px;
 }
 
 .contacts {
-height: 67px;
-width: 130px;
-position: absolute;
-top: 11px;
-right: 43px;
-color: #128aa7;
-line-height: 18px;
-}
-
-.first_line {
-  font-weight: bold;
+  float: right;
+  color: #128aa7;
+  line-height: 9px;
 }
 
 .countries {
-  position: absolute;
-  top: 111px;
-  right: 43px;
+  clear: right;
+  float: right;
+  margin-top: 10px;
 }
 
 .countries li {
   display: inline-block;
-  padding-right: 14px;
+  text-align: center;
+  margin-left: 11px;
 }
 
 .countries li img {
@@ -67,16 +57,24 @@ line-height: 18px;
 }
 
 .countries a {
-  text-align: center;
   font-size: 10px;
   color: #128aa7;
 }
 
-.lower {
-  margin: 0 auto; /*почему не отцентровывает*/
+.central {
+  width: 100%;
+  outline: 1px solid #128aa7;
 }
 
-.copyright {
+article {
+  margin-top: 1px;
+}
+
+
+.lower {
+  margin: auto;
+  width: 1020px;
   text-align: center;
   color: #ffffff;
+  opacity: 0.8;
 }
