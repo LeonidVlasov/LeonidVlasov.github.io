@@ -4,14 +4,23 @@
   display: block;
 }
 
+/*.google {
+  position: fixed;
+  height: 37px;
+  width: 100%;
+  z-index: 1;
+}*/
+
 body {
   background-image: url(../img/background.jpg);
-  font-family: tahoma;
+  background-size: 100% 100%;
+  font-family: tahoma regular;
+  font-size: 12px;
   margin: 38px 120px 38px 142px;
-  
 }
 
 .wrapper {
+  position: relative;
   margin: 0 auto;
   width: 1020px;
   height: 1000px;
@@ -19,12 +28,55 @@ body {
   padding: 0px 10px;
 }
 
+
+
+.logo {
+  position: absolute;
+  top: 11px;
+  left: 37px;
+}
+
+.contacts {
+height: 67px;
+width: 130px;
+position: absolute;
+top: 11px;
+right: 43px;
+color: #128aa7;
+line-height: 18px;
+}
+
+.first_line {
+  font-weight: bold;
+}
+
+.countries {
+  position: absolute;
+  top: 111px;
+  right: 43px;
+}
+
+.countries li {
+  display: inline-block;
+  padding-right: 14px;
+}
+
+.countries li img {
+  display: block;
+  margin: auto;
+}
+
+.countries a {
+  text-align: center;
+  font-size: 10px;
+  color: #128aa7;
+}
+
 .lower {
-  margin: 0 auto;
+  margin: 0 auto; /*почему не отцентровывает*/
 }
 
 .copyright {
   text-align: center;
-  font-size: 12px;
   color: #ffffff;
 }
