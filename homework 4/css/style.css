@@ -1,3 +1,5 @@
+
+
 .clearfix:after {
   content: '';
   clear: both;
@@ -26,23 +28,27 @@ body {
 
 header {
   padding: 11px 30px 8px 30px;
+  outline: 1px solid blue;
 }
 
 .logo {
   float: left;
-  height: 149px;
+  height: 153px;
+  outline: 1px solid red;
 }
 
 .contacts {
   float: right;
   color: #128aa7;
   line-height: 9px;
+  outline: 1px solid red;
 }
 
 .countries {
   clear: right;
   float: right;
   margin-top: 10px;
+  outline: 1px solid red;
 }
 
 .countries li {
