@@ -80,6 +80,23 @@ article {
   margin-top: 1px;
 }
 
+.central_menu {
+  height: 28px;
+  background-color: #343434;
+  color: #ffffff;
+}
+
+.central_menu li {
+  float: left;
+
+}
+
+.central_menu ul li a {
+  padding: 0px 10px;
+  text-decoration: none;
+  line-height: 28px;
+}
+
 
 .lower {
   margin: auto;
@@ -88,3 +105,5 @@ article {
   color: #ffffff;
   opacity: 0.8;
 }
+
+9px 65px 15px 68px
