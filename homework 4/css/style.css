@@ -1,5 +1,3 @@
-
-
 .clearfix:after {
   content: '';
   clear: both;
@@ -28,31 +26,26 @@ body {
 
 header {
   padding: 11px 30px 8px 30px;
-  outline: 1px solid blue;
 }
 
 .logo {
   float: left;
-  height: 153px;
-  outline: 1px solid red;
+  height: 154px;
 }
 
 .contacts {
   float: right;
   color: #128aa7;
   line-height: 9px;
-  outline: 1px solid red;
 }
 
 .head_menu {
-    clear: right;
+  clear: right;
   float: right;
 }
 
 .countries {
-
   margin-top: 10px;
-  outline: 1px solid red;
 }
 
 .countries li {
@@ -76,27 +69,66 @@ header {
   outline: 1px solid #128aa7;
 }
 
-article {
+nav {
   margin-top: 1px;
+  padding: 0px 65px;
+  background-color: #343434;
 }
 
 .central_menu {
-  height: 28px;
-  background-color: #343434;
-  color: #ffffff;
+
+  display: block;
+  list-style: none;
+  text-align: center;
 }
 
-.central_menu li {
+/*.central_menu:after {
+  display: block;
+  content: ' ';
+  clear: both;
+  float: none;
+}*/
+
+.central_menu > li {
   float: left;
+  position: relative;
+  }
 
-}
-
-.central_menu ul li a {
-  padding: 0px 10px;
+.central_menu > li > a {
+  display: block;
+  padding: 10px 30px;
+  color: #ffffff;
   text-decoration: none;
-  line-height: 28px;
 }
 
+.drop_menu {
+  display: none;
+  position: absolute;
+}
+
+.drop_menu > li {
+  display: block;
+}
+
+.drop_menu > li > a {
+  display: block;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #343434;
+  text-decoration: none;
+}
+
+.drop_menu > li > a:hover {
+  text-decoration: underline;
+}
+
+.central_menu > li:hover > .drop_menu {
+  display: block;
+}
+
+.country {
+  width: 147px;
+}
 
 .lower {
   margin: auto;
@@ -106,4 +138,4 @@ article {
   opacity: 0.8;
 }
 
-9px 65px 15px 68px
+/*9px 65px 15px 68px*/
