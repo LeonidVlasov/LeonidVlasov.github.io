@@ -44,9 +44,13 @@ header {
   outline: 1px solid red;
 }
 
-.countries {
-  clear: right;
+.head_menu {
+    clear: right;
   float: right;
+}
+
+.countries {
+
   margin-top: 10px;
   outline: 1px solid red;
 }
