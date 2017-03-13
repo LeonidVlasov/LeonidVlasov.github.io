@@ -1,14 +1,13 @@
 body {
   background-color: #f9f9f9;
   font-family: 'Open Sans', sans-serif;
-  padding: 0px 100px 0px 100px;
 }
 .wrapper {
   margin: 0px auto;
   width: 1060px;
   background-color: #ffffff;
   box-shadow: 0px 0px 10px #dbdbdb;
-  padding: 54px 16px 60px 100px;
+  padding: 54px 45px 60px 45px;
 }
 
 .top_menu {
@@ -49,12 +48,13 @@ body {
 .container {
   position: relative;
   overflow: hidden;
+  padding-top: 58px;
 }
 
 .left_menu {
   float: left;
 	width: 240px;
-	margin: 58px 0px 0px 0px;
+
 }
 
 .left_menu li a {
@@ -82,7 +82,7 @@ border-bottom: 1px solid #c8c8c8;
 .content {
 	float :left;
 	width: 670px;
-  margin-top: 58px;
+
 	margin-left: 48px;
 }
 
@@ -98,30 +98,36 @@ border-bottom: 1px solid #c8c8c8;
 	font-size: 13.33px;
 }
 
-footer {
+.footer {
 	margin-top: 58px;
 	background: #E1E1E1;
-	width: 966px;
+	width: 968px;
+  overflow: hidden;
+  height: 40px;
+  font-size: 13.33px;
 }
 
-footer a {
+.footer ul {
+  float:left;
+}
+
+.footer ul li {
+	color: #fff;
+  display: inline-block;
+  padding: 14px 25px;
+
+}
+
+.footer a {
 	text-decoration: none;
 	color: #2C2C2C;
 }
 
-footer a:hover {
+.footer a:hover {
 	text-decoration: underline;
 }
 
-footer ul li {
-	width: 70px;
-	color: #fff;
-	text-align: center;
-	padding: 13px 20px 13px 24px;
-	float: left;
-}
-
-footer p {
-	text-align: right;
-	padding: 15px;
+.info {
+  float: right;
+  padding: 14px 25px;
 }
