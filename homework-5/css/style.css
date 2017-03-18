@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top-menu {
+  height: 37px;
+  width: 100%;
+  background-color: blue;
+}
+
+.wrapper {
+  height: 100%; /*calc(100vh - 37px);*/
+  width: 100%;
+  background: url(../img/background.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+}
+
+.top-text {
+  width: 560px;
+  background-color: rgba(0, 0, 0, 0.63);
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  color: white;
+  font-size: 24px;
+}
+
+form {
+  height: 490px;
+  width: 560px;
+  box-sizing: border-box;
+  margin: 2px auto 0px auto;
+  background-color: rgba(0, 0, 0, 0.63);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+[type="text"],
+[type="password"] {
+  box-sizing: border-box;
+  height: 35px;
+  width: 276px;
+  margin-top: 17px;
+  padding-left: 17px;
+}
+
+[type="checkbox"] {
+  margin-top: 17px;
+  align-items: flex-start;
+}
+
+.agree {
+color: white;
+font-size: 14px;
+font-weight: 100;
+}
+
+[type="submit"] {
+  width: 150px;
+  margin-top: 17px;
+  background-color: rgb(49,127,199);
+  color: white;
+  font-size: 14px;
+  padding: 17px 13px;
+  border-color: rgb(49,127,199);
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.low-text {
+  width: 560px;
+  background-color: rgba(0, 0, 0, 0.63);
+  margin: 0px auto;
+  text-align: center;
+  padding: 24px 125px;
+box-sizing: border-box;
+  color: white;
+  font-size: 11px;
+  font-weight: 100;
+}
