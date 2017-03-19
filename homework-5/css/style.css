@@ -9,11 +9,11 @@
 }
 
 .wrapper {
-  height: 100%;
   width: 100%;
   background: url(../img/background.jpg) no-repeat;
   background-size: cover;
   padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .top-text {
@@ -40,13 +40,14 @@ a {
   text-decoration: none;
   color: #fbffff;
   display: flex;
+  width: 255px;
   align-items: center;
   background-color: #324881;
-  width: 275px;
   border-radius: 4px;
-  height: 30px;
+
   border-color: #324881;
   box-shadow: 0 -1px 0px #7789b7;
+  padding: 0 auto;
 }
 
 .fb-label {
@@ -55,6 +56,7 @@ a {
   border-right-style: outset;
   border-right-color: #4d68ab;
   text-align: center;
+  padding: 7px 0;
 }
 
 .fb-text {
@@ -69,21 +71,43 @@ a {
   font-weight: 700;
 }
 
+.middle {
+  margin: 30px auto 0;
+  width: 275px;
+  text-align: center;
+}
+
+.OU {
+  position: relative;
+  font-size: 18px;
+  padding: 0 5px;
+  color: #999999;
+}
+
+.OU:before,
+.OU:after {
+  position: absolute;
+  content: '';
+  width: 108px;
+  border-bottom: 1px solid #000;
+  top: 9px;
+
+}
+
+.OU:before {
+  left: 100%;
+}
+
+.OU:after {
+  right: 100%;
+}
+
 
 fieldset {
   width: 275px;
-  border-width: 1px;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-  border-color: #000;
+  border: none;
   color: #60655f;
-  margin: 30px auto 10px;
-}
-
-legend {
-  text-align: center;
-  padding: 0 5px;
+  margin: 0px auto 10px;
 }
 
 [type="text"],
@@ -92,12 +116,24 @@ legend {
   width: 100%;
   margin-top: 17px;
   padding-left: 17px;
+  background-color: #0f0f0f;
+  border: none;
+  border-bottom: 1px solid #484948;
+}
+
+[type="text"]:focus,
+[type="text"]:hover,
+[type="password"]:focus,
+[type="password"]:hover {
+border: 1px solid #689bcc;
+background: #1b5288;
+box-shadow: 0 0 10px 3px rgba(72,120,151,1);
 }
 
 [type="checkbox"] {
   vertical-align: middle;
   margin: 17px 0;
-  border-style: double;
+  border-style: groove;
 }
 
 .update {
@@ -112,11 +148,11 @@ label {
 
 .submitting {
   width: 150px;
-  background-color: rgb(49,127,199);
+  background: linear-gradient(to bottom, #6bb8e7, #2e7ac4)/*rgb(49,127,199)*/;
   color: white;
   font-size: 14px;
   padding: 17px 13px;
-  border-color: rgb(49,127,199);
+  border-color: #6bb8e7;
   border-radius: 4px;
   font-size: 14px;
   margin-left: 55px; /*костыль - надо править*/
