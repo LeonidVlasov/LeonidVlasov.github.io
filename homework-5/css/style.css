@@ -189,6 +189,7 @@ fieldset {
   background-color: #0f0f0f;
   border: none;
   border-bottom: 1px solid #484948;
+  color: #fff;
 }
 
 [type="text"]:focus,
