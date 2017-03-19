@@ -17,9 +17,13 @@
   display: block;
 }
 
+body {
+  background: url(../img/mainfont.jpg.jpg)
+}
+
 header {
   width: 100%;
-  background-color: #085392;
+  background: url(../img/topfont.jpg);
   display: flex;
   flex-direction: row-reverse;
   font-size: 14px;
@@ -189,7 +193,6 @@ fieldset {
   background-color: #0f0f0f;
   border: none;
   border-bottom: 1px solid #484948;
-  color: #fff;
 }
 
 [type="text"]:focus,
@@ -219,7 +222,7 @@ label {
 
 .submitting {
   width: 150px;
-  background: linear-gradient(to bottom, #6bb8e7, #2e7ac4)/*rgb(49,127,199)*/;
+  background: linear-gradient(to bottom, #6bb8e7, #2e7ac4);
   color: white;
   font-size: 14px;
   padding: 17px 13px;
