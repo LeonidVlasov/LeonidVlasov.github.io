@@ -220,6 +220,7 @@ label {
 }
 
 .submitting {
+  display: block;
   width: 150px;
   background: linear-gradient(to bottom, #6bb8e7, #2e7ac4);
   color: white;
@@ -228,7 +229,7 @@ label {
   border-color: #6bb8e7;
   border-radius: 4px;
   font-size: 14px;
-  margin-left: 55px; /*костыль - не знаю как исправить*/
+  margin: 0 auto;
   cursor: pointer
 }
 
