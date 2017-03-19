@@ -1,12 +1,15 @@
 
 @font-face {
-  font-family: HelveticaNeue;
-  src: url();
+    font-family: 'Helvetica Neue Regular';
+    src: url('../fonts/helveticaneue-thin1-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 * {
   box-sizing: border-box;
-  font-family: HelveticaNeue;
+  font-family: "helvetica Neue Regular", tahoma;
   padding: 0;
   margin: 0;
 }
@@ -75,10 +78,9 @@ header {
 
 .top-menu-5items li:hover {
   background: #4eabda;
-  color: #fff;
 }
 
-.top-menu-5items a:hover {
+.top-menu-5items li:hover a {
   color: #fff;
 }
 
