@@ -232,7 +232,6 @@ label {
   border-radius: 4px;
   font-size: 14px;
   margin-left: 55px; /*костыль - надо править*/
-
 }
 
 .low-text {
@@ -245,4 +244,8 @@ label {
 p {
   opacity: 0.63;
   line-height: 16px;
+}
+
+input::-moz-placeholder {
+  color: white;
 }
