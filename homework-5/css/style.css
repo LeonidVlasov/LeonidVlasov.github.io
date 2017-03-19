@@ -38,7 +38,7 @@ header {
 
 .top-menu-flag li {
   float: right;
-  padding: 10px 30px;
+  padding: 10px 20px;
 }
 
 .top-menu-5items {
@@ -47,7 +47,7 @@ header {
 
 .top-menu-5items li {
   float: right;
-  padding: 10px 25px;
+  padding: 10px 20px;
 }
 
 .top-right-menu,
@@ -225,12 +225,13 @@ label {
   background: linear-gradient(to bottom, #6bb8e7, #2e7ac4);
   color: white;
   font-size: 14px;
-  padding: 17px 13px;
+  padding: 7px 13px;
   border-color: #6bb8e7;
   border-radius: 4px;
   font-size: 14px;
   margin: 0 auto;
-  cursor: pointer
+  cursor: pointer;
+  margin-bottom: 10px;
 }
 
 .low-text {
