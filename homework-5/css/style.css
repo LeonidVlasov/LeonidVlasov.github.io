@@ -18,7 +18,7 @@
 }
 
 body {
-  background: url(../img/mainfont.jpg.jpg)
+  background: url(../img/mainfont.jpg)
 }
 
 header {
@@ -38,6 +38,10 @@ header {
 
 .top-menu-flag li {
   float: right;
+}
+
+.top-menu-flag a {
+  display: block;
   padding: 10px 20px;
 }
 
@@ -47,6 +51,10 @@ header {
 
 .top-menu-5items li {
   float: right;
+}
+
+.top-menu-5items a {
+  display: block;
   padding: 10px 20px;
 }
 
