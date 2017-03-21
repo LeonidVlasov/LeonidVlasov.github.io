@@ -18,7 +18,8 @@
 }
 
 body {
-  background: url(../img/mainfont.jpg)
+  background: url(../img/mainfont.jpg);
+  background-size: cover;
 }
 
 header {
@@ -40,9 +41,23 @@ header {
   float: right;
 }
 
-.top-menu-flag a {
+.log-in {
   display: block;
   padding: 10px 20px;
+}
+
+.flag {
+  display: block;
+  padding: 10px 20px;
+}
+
+.fa-flag {
+  padding-right: 10px;
+}
+
+.Ola-ou {
+  padding: 0 5px;
+  color: #fff;
 }
 
 .top-menu-5items {
@@ -73,11 +88,18 @@ header {
   text-decoration: none;
 }
 
-.top-menu-flag li:hover {
+.flag:hover {
   background: linear-gradient(to bottom, #4ca8d9, #2e7ac4);
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-.top-enter:hover {
+.log-in:hover {
+  background: linear-gradient(to bottom, #4ca8d9, #2e7ac4);
+  cursor: pointer;
+}
+
+.log-in a:hover {
   text-decoration: underline;
 }
 
@@ -93,8 +115,8 @@ header {
   width: 100%;
   background: url(../img/background.jpg) no-repeat;
   background-size: cover;
-  padding-top: 15%;
-  padding-bottom: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .top-text {
@@ -114,6 +136,8 @@ form {
   background-color: rgba(0, 0, 0, 0.63);
   padding-top: 35px;
   padding-bottom: 15px;
+  flex-grow: 100;
+
 }
 
 .fb-link {
@@ -148,6 +172,10 @@ form {
 .fb {
   font-size: 16px;
   font-weight: 700;
+}
+
+.fa-angle-right {
+  padding-left: 15px;
 }
 
 .middle {
