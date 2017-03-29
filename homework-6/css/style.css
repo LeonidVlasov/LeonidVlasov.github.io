@@ -306,26 +306,27 @@ select {
 
 .left-menu li {
   list-style: circle;
-  font-size: 13px;
-}
 
-.left-menu li:hover {
-  font-family: arial;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 14px;
-  text-decoration: underline;
 }
 
 .left-menu li:nth-child(2),
-.left-menu li:nth-child(3),
-.left-menu li:nth-child(4) {
+.left-menu li:nth-child(3) {
   margin: 5px 0;
 }
 
 .left-menu li a{
   text-decoration: none;
   color: #465961;
+  font-size: 13px;
+}
+
+.left-menu li a:hover {
+  font-family: arial;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #0c3256;
 }
 
 .product-list {
