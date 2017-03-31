@@ -47,6 +47,7 @@ vertical-align: middle;
   font-family: arial;
   font-weight: bold;
   letter-spacing: 0.5px;
+  text-decoration: none;
 }
 
 .person {
@@ -75,6 +76,11 @@ vertical-align: middle;
 
 [type="password"] {
   margin-left: 7px;
+}
+
+[placeholder="логин"],
+[placeholder="пароль"] {
+  padding-left: 2px;
 }
 
 .submitting {
@@ -206,7 +212,10 @@ nav li:hover a{
   font-size: 12px;
 }
 
+/*start of crap blocks*/
+
 .three-blocks {
+  height: 135px;
   width: 910px;
   margin-top: 10px;
   display: flex;
@@ -226,12 +235,8 @@ nav li:hover a{
 }
 
 .left-block {
-  position: relative;
   width: 415px;
   font-family: arial;
-  padding-top: 5px;
-  padding-left: 17px;
-  padding-right: 13px;
 }
 
 h3 {
@@ -244,19 +249,20 @@ h3 {
 }
 
 .rims {
-  position: absolute;
 
 }
 
+.rims-tyres {
+/*column-count:2;*/
+}
+
 .tyres-select {
-  float: right;
-  width: 50%;
+
 }
 
 select {
   height: 15px;
   font-size: 9px;
-  display: inline-block;
 }
 
 .central-block {
@@ -269,15 +275,7 @@ select {
   width: 266px;
 }
 
-.main-blocks {
-  display: flex;
-  flex-direction: row;
-  justify-content: stretch;
-  width: 910px;
-  margin-top: 20px;
-}
-
-.Search {
+.search {
   position: absolute;
   right: 15px;
   bottom: 5px;
@@ -290,6 +288,16 @@ select {
   font-size: 14px;
   font-weight: 200;
   cursor: pointer;
+}
+
+/* end of crap lists*/
+
+.main-blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  width: 910px;
+  margin-top: 20px;
 }
 
 .left-menu img,
@@ -306,7 +314,6 @@ select {
 
 .left-menu li {
   list-style: circle;
-
 }
 
 .left-menu li:nth-child(2),
@@ -342,18 +349,22 @@ select {
   color: #114165;
 }
 
-.Tyres {
+.tyres,
+.tyres-right {
   margin-top: 20px;
 }
 
-.Tyres,
-.Wheels,
-.Bolts {
+.tyres,
+.wheels,
+.bolts,
+.wheels-right,
+.tyres-right {
   display: flex;
   align-items: center;
   width: 150px;
   border: 1px solid #8b979c;
   border-radius: 30px;
+  margin-left: 5px;
   padding: 4px 5px;
   font-size: 14px;
   text-transform: uppercase;
@@ -361,12 +372,17 @@ select {
   color: #114165;
 }
 
+.wheels-right,
+.tyres-right {
+  margin-left: 20px;
+}
+
 .head-line {
   margin-left: 3px;
 }
 
 .right-menu-list {
-  margin: 10px 5px;
+  margin: 10px 25px;
   font-size: 13px;
   color: #114165;
 }
@@ -377,7 +393,7 @@ select {
 
 .tyres-wheels-choice {
   margin-top: 15px;
-  margin-left: 5px;
+  margin-left: 27px;
   background: linear-gradient(to bottom,#1f6787,#0d3458);
   border-color: #1f6787;
   border-radius: 10px;
