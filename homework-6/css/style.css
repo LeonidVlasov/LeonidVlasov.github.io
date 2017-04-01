@@ -295,7 +295,6 @@ select {
 .main-blocks {
   display: flex;
   flex-direction: row;
-  justify-content: stretch;
   width: 910px;
   margin-top: 20px;
 }

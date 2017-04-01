@@ -20,10 +20,10 @@
 body {
   background: url(../img/mainfont.jpg);
   background-size: cover;
-  min-height: 100vh;
 }
 
 .mega-container {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -119,13 +119,13 @@ header {
 
 .wrapper {
   width: 100%;
-  padding: 100px 0;
   background: url(../img/background.jpg) no-repeat;
   background-size: cover;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   flex-grow: 1;
+  justify-content: center;
 }
 
 .top-text {
