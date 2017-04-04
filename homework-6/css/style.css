@@ -220,8 +220,8 @@ nav li:hover a{
   margin-top: 10px;
   display: flex;
   flex-direction: row;
-  align-items: stretch;
   font-family: arial;
+  justify-content: center;
 }
 
 .left-block,
