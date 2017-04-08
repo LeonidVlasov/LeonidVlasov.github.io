@@ -9,13 +9,11 @@
   <body>
     <header>
         <div class="phone-logo">
-          <img src="image/Phone.png" alt="phone">
+          <i class=phone>&nbsp;</i> <!--src="image/Phone.png" alt="phone">-->
           <a class="numbers" href="#">(044)123-45-67</a> <a class="numbers" href="#">(044)567-89-10</a>
         </div>
         <div class="personalization">
-          <div class="person">
-          <img src="image/person.png" alt="person">
-          </div>
+          <i class="person"></i>
             <form action="#" method="post">
               <input type="text" class="login" name="login" placeholder="логин">
               <input type="password" name="password" placeholder="пароль">
@@ -25,9 +23,9 @@
             <a class="forgot-password" href="#">забыли пароль?</a>
         </div>
         <div class="home-map-feedback">
-          <a href="#"><img src="image/home.png" alt="home"></a>
-				  <a href="#"><img class= "map-site" src="image/map-site.png" alt="map-site"></a>
-          <a href="#"><img src="image/feedback.png" alt="feedback"></a>
+          <a class="home" href="#"></a>
+				  <a class="map-site" href="#"></a>
+          <a class="feedback" href="#"></a>
         </div>
     </header>
     <div class="logo">
@@ -42,7 +40,7 @@
         <li><a href="#">контакты</a></li>
       </ul>
       <div class="purchase">
-        <a class="basket" href="#"><img src="image/basket.png" alt="basket"></a>
+        <a class="basket" href="#"><i class="trolley-basket"></i></a>
         <span class="items">товаров:</span>
         <span class="value">0</span>
         <span class="sum">на сумму:</span>
@@ -202,40 +200,48 @@
     </div>
   <div class="main-blocks">
     <aside class="left-menu">
-      <div class="product-list">
-          <img src="image/list.png" alt="list">
-            <span class="head-line">каталог продукции:</span>
-      </div>
-      <div class="tyres">
-        <img src="image/tyre.png" alt="tyre">
-        <span class="head-line">шины</span>
-      </div>
-      <ul class="select">
-        <li><a href="#">Наименование 1</a></li>
-				<li><a href="#">Наименование 2</a></li>
-				<li><a href="#">Наименование 3</a></li>
-        <li><a href="#">Наименование 4</a></li>
-      </ul>
-      <div class="wheels">
-        <img src="image/tyre.png" alt="tyre">
-        <span class="head-line">диски</span>
-      </div>
-      <ul class="select">
-        <li><a href="#">Наименование 1</a></li>
-				<li><a href="#">Наименование 2</a></li>
-				<li><a href="#">Наименование 3</a></li>
-        <li><a href="#">Наименование 4</a></li>
-      </ul>
-      <div class="bolts">
-        <img src="image/tyre.png" alt="tyre">
-        <span class="head-line">болты</span>
-      </div>
-      <ul class="select">
-        <li><a href="#">Наименование 1</a></li>
-				<li><a href="#">Наименование 2</a></li>
-				<li><a href="#">Наименование 3</a></li>
-        <li><a href="#">Наименование 4</a></li>
-      </ul>
+      <section>
+        <h4 class="product-list">
+            <i class="list"></i>
+            каталог продукции:
+        </h4>
+        <section>
+          <h4 class="tyres">
+            <i class="mini-tyre"></i>
+            шины
+          </h4>
+          <ul class="select">
+            <li><a href="#">Наименование 1</a></li>
+    				<li><a href="#">Наименование 2</a></li>
+    				<li><a href="#">Наименование 3</a></li>
+            <li><a href="#">Наименование 4</a></li>
+          </ul>
+        </section>
+        <section>
+          <h4 class="wheels">
+            <i class="mini-tyre"></i>
+            диски
+          </h4>
+          <ul class="select">
+            <li><a href="#">Наименование 1</a></li>
+    				<li><a href="#">Наименование 2</a></li>
+    				<li><a href="#">Наименование 3</a></li>
+            <li><a href="#">Наименование 4</a></li>
+          </ul>
+        </section>
+        <section>
+          <h4 class="bolts">
+            <i class="mini-tyre"></i>
+            болты
+          </h4>
+          <ul class="select">
+            <li><a href="#">Наименование 1</a></li>
+    				<li><a href="#">Наименование 2</a></li>
+    				<li><a href="#">Наименование 3</a></li>
+            <li><a href="#">Наименование 4</a></li>
+          </ul>
+        </section>
+      </section>
     </aside>
     <main>
       <figure>
@@ -312,44 +318,36 @@
       </figure>
     </main>
     <aside class="right-menu">
-      <div class="product-list">
-        <img src="image/list.png" alt="list">
-        <span class="head-line">бренды:</span>
-      </div>
+      <h4 class="product-list">
+        <i class="list"></i>
+        бренды:
+      </h4>
       <form action="#" method="post">
-        <div class="tyres-right">
-          <img src="image/tyre.png" alt="tyre">
-          <span class="head-line">шины</span>
-        </div>
-        <ul class="right-menu-list">
-					<li><label><input type="checkbox" name="brand-1"><span class="right-menu-brands">Бренд 1</span></label></li>
-					<li><label><input type="checkbox" name="brand-2"><span class="right-menu-brands">Бренд 2</span></label></li>
-					<li><label><input type="checkbox" name="brand-3"><span class="right-menu-brands">Бренд 3</span></label></li>
-        </ul>
-        <div class="wheels-right">
-          <img src="image/tyre.png" alt="tyre">
-          <span class="head-line">диски</span>
-        </div>
-        <ul class="right-menu-list">
-          <li><label><input type="checkbox" name="brand-1"><span class="right-menu-brands">Бренд 1</span></label></li>
-          <li><label><input type="checkbox" name="brand-2"><span class="right-menu-brands">Бренд 2</span></label></li>
-          <li><label><input type="checkbox" name="brand-3"><span class="right-menu-brands">Бренд 3</span></label></li>
-        </ul>
+        <h4 class="tyres-right">
+          <i class="mini-tyre"></i>
+          шины
+        </h4>
+        <fieldset class="right-menu-list">
+					<label><input type="checkbox" name="brand-1"><span class="right-menu-brands">Бренд 1</span></label>
+					<p><label><input type="checkbox" name="brand-2"><span class="right-menu-brands">Бренд 2</span></label></p>
+					<label><input type="checkbox" name="brand-3"><span class="right-menu-brands">Бренд 3</span></label>
+        </fieldset>
+        <h4 class="wheels-right">
+          <i class="mini-tyre"></i>
+          диски
+        </h4>
+        <fieldset class="right-menu-list">
+          <label><input type="checkbox" name="brand-1"><span class="right-menu-brands">Бренд 1</span></label>
+          <p><label><input type="checkbox" name="brand-2"><span class="right-menu-brands">Бренд 2</span></label></p>
+          <label><input type="checkbox" name="brand-3"><span class="right-menu-brands">Бренд 3</span></label>
+        </fieldset>
         <input class="tyres-wheels-choice" type="submit" value="выбрать">
       </form>
     </aside>
   </div>
-      <ul class="logo-marks">
-  			<li class="toyo"><img src="image/Toyo.png" alt="Toyo"></li>
-  			<li class="bridgestone"><img src="image/Bridgestone.png" alt="Bridgestone"></li>
-        <li class="continental"><img src="image/Continental.png" alt="Continental"></li>
-        <li class="сooper"><img src="image/Cooper.png" alt="Cooper"></li>
-        <li class="avon"><img src="image/Avon.png" alt="Avon"></li>
-        <li class="tyre-factory"><img src="image/Tyre-factory.png" alt="Tyre-factory"></li>
-        <li class="pirelli"><img src="image/Pirelli.png" alt="Pirelli"></li>
-        <li class="dunlop"><img src="image/Dunlop.png" alt="Dunlop"></li>
-      </ul>
-      <footer>
+  <div class="tm">
+  </div>
+  <footer>
   			<ul class="bottom-menu">
   				<li><a class="bottom-v-line" href="#">О компании</a></li>
   				<li><a class="bottom-v-line" href="#">Доставка</a></li>

@@ -19,7 +19,7 @@
 body {
   background-color: #fff;
   min-height: 100vh;
-  margin-top: 36px;
+  padding-top: 36px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,14 +31,15 @@ header {
   flex-direction: row;
   align-items: center;
   margin-left: 17px;
+  margin-bottom: 10px;
 }
 
-.phone-logo img{
-background-color: #164f71;
-height: 20px;
-width: 20px;
-border-radius: 10px;
-vertical-align: middle;
+.phone {
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  background-image: url(../image/Phone.png);
+  background-repeat: no-repeat;
 }
 
 .numbers {
@@ -48,9 +49,12 @@ vertical-align: middle;
   font-weight: bold;
   letter-spacing: 0.5px;
   text-decoration: none;
+  vertical-align: middle;
 }
 
 .person {
+  background-image: url(../image/person.png);
+  background-repeat: no-repeat;
   height: 18px;
   width: 18px;
   margin-left: 7px;
@@ -122,20 +126,26 @@ vertical-align: middle;
 }
 
 .home-map-feedback {
-  height: 19px;
   margin-left: 17px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 3px 0px 0px 10px;
   border: 1px solid #afb2b5;
-  border-radius: 10px;
+  border-radius: 200px;
 }
 
-.map-site {
-  margin: 0 8px;
+.home-map-feedback a {
+  height: 19px;
+  width: 15px;
+  display: inline-block;
+  background: url(../image/sprite.png) 0 0 no-repeat;
+  margin-right: 9px;
 }
 
-.logo {
-  margin-top: 5px;
+.home-map-feedback .map-site {
+  background-position: -19px 0;
+}
+
+.home-map-feedback .feedback {
+  background-position: -40px 0;
 }
 
 nav {
@@ -189,8 +199,11 @@ nav li:hover a{
   font-family: arial;
 }
 
-.purchase img {
-  margin-right: 15px;
+.trolley-basket {
+  display: block;
+  background-image: url(../image/basket.png);
+  height: 18px;
+  width: 18px;
 }
 
 .items,
@@ -200,6 +213,7 @@ nav li:hover a{
 }
 
 .items {
+  margin-left: 10px;
   padding-right: 2px;
 }
 
@@ -299,10 +313,18 @@ select {
   margin-top: 20px;
 }
 
-.left-menu img,
-.right-menu img {
-  height: 20px;
-  width: 20px;
+.list {
+  background-image: url(../image/list.png);
+  height: 22px;
+  width: 22px;
+  margin-right: 5px;
+}
+
+.mini-tyre {
+  background-image: url(../image/tyre.png);
+  height: 23px;
+  width: 22px;
+  margin-right: 5px;
 }
 
 .left-menu ul {
@@ -376,18 +398,16 @@ select {
   margin-left: 20px;
 }
 
-.head-line {
-  margin-left: 3px;
-}
-
 .right-menu-list {
   margin: 10px 25px;
   font-size: 13px;
   color: #114165;
 }
 
-.right-menu-list li:nth-child(2) {
-  margin: 10px 0;
+[name="brand-1"],
+[name="brand-2"],
+[name="brand-3"]{
+  margin-bottom: 10px;
 }
 
 .tyres-wheels-choice {
@@ -461,17 +481,11 @@ figcaption,
   margin-bottom: 10px;
 }
 
-.right-menu {
-}
-
-.logo-marks {
-  display: flex;
-  flex-direction: row;
-  margin-top: 40px;
-}
-
-.logo-marks img {
-  padding-right: 13px;
+.tm {
+  margin-top: 36px;
+  height: 27px;
+  width: 677px;
+  background: url(../image/sprite-tm.png) 0 0 no-repeat;
 }
 
 footer {
