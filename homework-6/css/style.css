@@ -40,6 +40,7 @@ header {
   width: 22px;
   background-image: url(../image/Phone.png);
   background-repeat: no-repeat;
+  vertical-align: middle;
 }
 
 .numbers {
@@ -105,7 +106,7 @@ header {
   text-decoration: none;
   font-weight: 200;
   font-size: 12px;
-  padding-top: 3px; /*костыль*/
+  padding-top: 3px;
 }
 
 .submitting,
@@ -402,6 +403,10 @@ select {
   margin: 10px 25px;
   font-size: 13px;
   color: #114165;
+}
+
+label {
+  display: block;
 }
 
 [name="brand-1"],
