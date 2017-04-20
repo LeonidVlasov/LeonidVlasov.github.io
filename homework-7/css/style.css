@@ -1,0 +1,288 @@
+@font-face {
+  font-family: 'League Gothic Regular';
+  src: url('leaguegothic-regular-webfont.woff2') format('woff2'),
+       url('leaguegothic-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans Light';
+  src: url('open-sans-light-webfont.woff2') format('woff2'),
+       url('open-sans-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans Extra Bold';
+  src: url('open-sans-extra-bold-webfont.woff2') format('woff2'),
+       url('open-sans-extra-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "League Gothic Regular","Open Sans Light","Open Sans Extra Bold",arial,sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav__link,
+.slide__title,
+.about-company__header,
+.about-company__text-inf,
+.more-inf-link,
+.footer__design,
+.design__tm {
+  color: #fff;
+}
+
+.page-header__nav,
+.about-company__header,
+.more-inf-link,
+.testimonials__text-header,
+.from-the-blog__text-header,
+.more-inf-here-link,
+.more-inf-here-link-968,
+.left-block__text-header,
+.text-header__er,
+.comments-categories__text-header,
+.nav__link {
+  text-transform: uppercase;
+}
+
+
+.top-block {
+  background-image: url(../img/background/top-bckground.jpg);
+}
+
+.page-header__nav {
+  font-size: 24px;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.nav__link,
+.more-inf-link,
+.more-inf-here-link,
+.more-inf-here-link-968 {
+  text-decoration: none;
+}
+
+.slider__body {
+  background-color: rgba(129,129,129,0.2);
+}
+
+.slide__title {
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.slide__title--purple {
+  color: #c19ccf;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.slide__text {
+  color: #d6d4d8;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.slide__img {
+  position: relative;
+}
+
+.play-button {
+  position: absolute;
+  display: block;
+  top: 148px;
+  left: 137px;
+  height: 75px;
+  width: 75px;
+  background: url(../img/play-btn.png) no-repeat;
+}
+
+.blurbs {
+  background: linear-gradient(to bottom,#745183,#36293d);
+  display: flex;
+}
+
+.about-company__header {
+  text-shadow: 1px 1px 0px rgba(15, 21, 24, 1);
+}
+
+.about-company__image {
+  display: block;
+  height: 30px;
+  width: 30px;
+  background: url(../img/sprites/sprite.png) no-repeat;
+}
+
+.about-company__image--phrase {
+  background-position: -40px 0;
+}
+
+.about-company__image--note {
+  background-position: -77px 0;
+}
+
+.about-company__text-inf {
+  font-family: "Open Sans Light", arial, sans-serif;
+  font-size: 16px;
+  text-shadow: 1px 1px 0px rgba(15, 21, 24, 1);
+}
+
+.more-inf-link {
+  font-size: 18px;
+  text-shadow: 1px 1px 0px rgba(15, 21, 24, 1);
+}
+
+.more-inf-link:hover {
+  text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+}
+
+
+main,
+.clients-logo {
+  background-color: #f9f9f9;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.testimonials__foto {
+  display: block;
+  height: 49px;
+  width: 49px;
+  background: url(../img/avatar.png) no-repeat;
+}
+
+.left-block__text-header {
+  font-size: 48px;
+  color: #454545;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.text-header__er {
+  color: #b9b9b9;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.left-block__copyright {
+  font-family: georgia,arial,sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  color: #c8c8c8;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.testimonials__text-header,
+.from-the-blog__text-header {
+  color: #454545;
+}
+
+.updates-inf__text-header {
+  font-family: "Open Sans Extra Bold",arial,sans-serif;
+  font-size: 16px;
+}
+
+.testimonials__text-inf,
+.updates-inf__text-inf,
+.comments-categories__text-inf,
+.left-block__text-inf {
+  font-family: "Open Sans Light",arial,sans-serif;
+  font-size: 16px;
+}
+
+.text-header__starts-here {
+  margin-left: 5px;
+  color: #edbfff;
+}
+
+.updates-inf__foto {
+  display: block;
+  height: 49px;
+  width: 49px;
+}
+
+.updates-inf__foto--first {
+  background: url(../img/first-post.png) no-repeat;
+}
+
+.updates-inf__foto--second {
+  background: url(../img/second-post.png) no-repeat;
+}
+
+.updates-inf__foto--third {
+  background: url(../img/third-post.png) no-repeat;
+}
+
+.clients-logo__item {
+  display: inline-block;
+}
+
+.clients-logo__img {
+  display: block;
+  height: 66px;
+  background: url(../img/supporters.png) no-repeat;
+}
+
+.clients-logo__img--first {
+  width: 68px;
+}
+
+.clients-logo__img--second {
+  width: 67px;
+  background-position: -140px 0;
+}
+
+.clients-logo__img--third {
+  width: 63px;
+  background-position: -270px 0;
+}
+
+.clients-logo__img--fourth {
+  width: 50px;
+  background-position: -410px 0;
+}
+
+.clients-logo__img--fifth {
+  width: 103px;
+  background-position: -527px 0;
+}
+
+.clients-logo__img--sixth {
+  width: 78px;
+  background-position: -697px 0;
+}
+
+.more-inf-here-link,
+.more-inf-here-link-968 {
+  font-size: 18px;
+  color: #000;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.development,
+.development--for-tabs {
+  background-color: #ececec;
+}
+
+footer {
+  background: url(../img/background/bottom-bckground.jpg) no-repeat;
+}
+
+.footer__design,
+.design__tm {
+  font-family:"Open Sans Light",arial,sans-serif;
+  font-size: 12px;
+}
+
+.design__tm {
+  font-family: "Open Sans Extra Bold",arial,sans-serif;
+  margin-left: 5px;
+}
