@@ -1,0 +1,54 @@
+@media screen and (min-width: 320px) {
+  .slide__img,
+  .slide__text,
+  .development,
+  .development--for-tabs {
+    display: none;
+  }
+
+  .top-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav {
+    display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	overflow: hidden;
+  }
+
+  .page-header__nav {
+    visibility: hidden;
+  }
+
+  .page-header__nav:hover {
+    visibility: visible;
+  }
+
+  .page-header__nav:hover .nav__link {
+		display: block;
+	}
+
+  .nav__link--initial {
+    visibility: visible;
+    border: 0;
+  }
+
+  .slider {
+    text-align: center;
+  }
+
+
+  .blurbs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blurbs__about-company .about-company {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}

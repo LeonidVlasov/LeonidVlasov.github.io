@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Crimsontext Roman';
+    src: url('../fonts/crimsontext-roman-webfont.woff2') format('woff2'),
+         url('../fonts/crimsontext-roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #1c1e23;
+    padding-top: 50px;
+}
+
+header {
+    background-color: white;
+    padding: 20px 0 0;
+    position: relative;
+    z-index: 999;
+}
+
+.top-line,
+.nav,
+.choise,
+.second-line,
+.search,
+.main-info,
+main { 
+    display: flex;
+}
+
+.top-line {
+    margin-bottom: 20px;
+}
+
+.top-line,
+.second-line {
+    padding: 0  50px;
+    align-items: center;
+}
+
+
+.nav__item a,
+.choise__item a {
+    text-decoration: none;
+    
+}
+
+.page-header__top-line {
+    justify-content: space-between;
+}
+
+.logo,
+.basket-button {
+    flex-grow: 2;
+}
+
+.nav__item a {
+    font-family: "Montserrat Regular", arial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #343e5c;
+}
+
+.choise {
+    font-family: "Montserrat Regular", arial;
+    text-transform: uppercase;
+    flex-grow: 2;
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.choise__item a {
+    font-weight: 700;
+    color: #b9bed1;
+    margin-right: 10px;
+}
+
+.choise__item a:hover {
+   color: #343e5c;
+}
+
+.choise_last-link {
+     padding: 20px 0;
+    font-family: "Montserrat Regular", arial;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #b9bed1;
+    margin-right: 40px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.choise_last-link:hover {
+   color: #343e5c;
+}
+
+.basket-button {
+   display: flex;
+   justify-content: flex-end; 
+   align-items: space-around;  
+}
+
+
+.basket__picture {
+    display: block;
+    height: 19px;
+    width: 19px;
+    background-image: url(../img/icons/Shopping-Cart-Icon.png);
+    background-repeat: no-repeat;
+    margin-top: 3px;
+}
+
+.basket-button__text {
+    font-family: "Montserrat Regular", arial;
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #343e5c;
+    padding: 7px 5px 0;
+    margin: 0 5px;
+}
+
+.basket-button__number {
+    background-color: #e3e8f0;
+    border-radius: 100%;
+    font-family: "Montserrat Regular", arial;
+    font-size: 11px;
+    font-weight: 700;
+    color: #343e5c;
+    padding: 7px 10px 0;
+    margin-right: 30px;
+}
+
+.basket-button__button {
+    width: 83px;
+    background-color: #fff;
+    border: 1px solid #e3e8f0;
+    border-radius: 25px;
+    padding: 5px 0;
+    font-family: "Montserrat Regular", arial;
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #343e5c;
+
+}
+
+.nav {
+    flex-grow: 3;
+    justify-content: space-around;
+}
+
+.second-line {
+    border-top: 1px solid #f0f2f7;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.search {
+    height: 100%;
+    align-items: center;
+    padding: 20px 15px;
+    border-left: 1px solid #f0f2f7;
+    border-right: 1px solid #f0f2f7;
+}
+
+.search__picture {
+    display: block;
+    height: 17px;
+    width: 17px;
+    background-image: url(../img/icons/Search-Icon.png);
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.forma__field {
+    font-family: "Montserrat Regular", arial;
+    font-size: 12px;
+    border-style: none;
+}
+
+main {
+    padding-left: 20%;
+    padding-right: 40%;
+    justify-content: space-between;
+}
+
+.text-part {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text {
+    color: #fff;
+    margin-top: 20%;
+}
+
+h2 {
+    font-family: 'Montserrat Black', arial;
+    font-size: 48px;
+}
+
+.text__description {
+    font-family: "Crimsontext Roman";
+    font-size: 16px;
+    padding-top: 30px;
+    line-height: 30px;
+    color: #c2c3c4;
+}
+
+.text-part__button {
+    font-family: "Montserrat Regular", arial;
+    font-size: 12px;
+    text-transform: uppercase;
+    height: 43px;
+    width: 165px;
+    background-color: #2754eb;
+    border-style: none;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.foto {
+    width: 20%;
+}
+
+.foto__picture {
+    margin-top: -70px;
+}
