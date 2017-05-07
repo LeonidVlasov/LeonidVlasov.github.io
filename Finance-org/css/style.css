@@ -1,0 +1,38 @@
+body {
+	background-color: #fff;
+}
+
+h1 {
+    font-family: 'Arvo', serif;
+	text-align: center;
+	color: #3b3f6a;
+	margin-bottom: 130px;
+	font-weight: 500;
+}
+
+main,
+figure {
+	margin: 0 auto;
+	text-align: center;
+}
+
+figcaption {
+    font-family: 'Arvo', serif;
+	padding-top: 5px;
+	font-size: 22px;
+	color: #3b3f6a;
+}
+
+img {
+	height: 140px;
+}
+
+.second {
+	margin-top: 10px;
+}
+
+.text-grey {	
+    font-family: 'Noto Sans', sans-serif;
+	font-size: 19px;
+	color: #717592;
+}
