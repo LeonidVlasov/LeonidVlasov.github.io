@@ -1,6 +1,6 @@
 (function () {
 
-'use strict'
+'use strict';
 
 var arrDb = [];
 for ( var i = 0; i < 5; i++) {
@@ -11,14 +11,10 @@ for ( var i = 0; i < 5; i++) {
 var userName = prompt ('Введите имя пользователя');
     userName = userName.toLowerCase();
 
-    for(  i = 0; i < 5; i++) {
-        if ( arrDb[i] === userName ) {
+        if ( arrDb.indexOf (userName) !== -1) {
             alert(userName.toUpperCase() +', с возвращением!');
-            return(userName.toUpperCase());
-  } else {
-     alert( userName.toUpperCase() +'  не найден в базе пользователей');
-     return;
-}
+      } else  {
+         alert( userName.toUpperCase() +'  не найден в базе пользователей');
 }
 })();
 
