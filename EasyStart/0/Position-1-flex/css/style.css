@@ -1,0 +1,49 @@
+main {
+	display: flex;
+	justify-content: space-around;
+}
+
+.main {
+	display: flex;
+	justify-content: space-around;
+}
+
+.left,
+.right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.orange {
+	width: 8rem;
+	height: 8rem;
+	background-color: orange;
+}
+
+article {
+	display: flex;
+	padding: 0 2rem;
+}
+
+.green {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 400px;
+	width: 400px;
+	background-color: green;
+}
+
+.green--modified {
+	height: 300px;
+	width: 200px;
+	align-self: flex-end;
+
+}
+
+span {
+	display: block;
+	font-size: 30px;
+	text-align: center; 
+}

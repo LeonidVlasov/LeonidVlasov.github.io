@@ -1,5 +1,83 @@
+*{
+	transition: all .5s;
+}
+
 body {
-  margin: 0 auto;
-  background-color: #e79df4;
-  text-align: center;
+	background: url(http://subtlepatterns.com/patterns/subtlenet2.png);
+	font: 1em 'PT Sans', Tahoma, Arial;
+	text-transform: uppercase;
+}
+
+.wrapper {
+	width: 835px;
+	margin: 0 auto;
+}
+
+				/*Колонки*/
+.column {
+	width: 100%;
+	max-width: 250px;
+	color: #555;
+	text-align: center;
+	border: 1px solid #999;
+	background-color: rgba(51,51,51, 0.85);
+	box-shadow: 0 0 20px #000;
+	float: left;
+	margin-left: 20px;
+}
+
+				/*Заголовок*/
+.wrapper__header{
+	padding: 10px;
+	color: #555;	
+	width: 100%;
+	text-align: center;
+}
+
+				/*Подзаголовки*/
+.column__header {
+	color: #fff;
+}				
+				/*Кнопки*/
+
+.column__button {
+	text-decoration: none;
+	display: block;
+	margin-top: 10px;
+	border: 1px solid #333;
+	width: 185px;
+	height: 30px;
+	margin: 10px auto;
+	line-height: 30px;
+	border-radius: 50px;
+	color: #fff;
+	background-color: rgba(56, 56, 56, 0.65);
+	box-shadow: 0 0 1px #fff;
+	font-size: 16px;
+	text-transform: none;
+}
+
+.column__button:hover {
+	background-color: rgba(150,150,150, 0.65);
+	box-shadow: 0 0 7px #555;
+	font-size: 17px;
+} 				
+
+@media only screen and (max-width: 800px){
+	.column__header {
+		padding: 10px;
+		font-size: 14px;
+	}
+
+	.column__button {
+		width: 75px;
+		height: 25px;
+		font-size: 10px;
+		line-height: 25px;
+	}
+
+	.wrapper {
+		width: 100%;
+		margin: 0 auto;
+	}
 }
