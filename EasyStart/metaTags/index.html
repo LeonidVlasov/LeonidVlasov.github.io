@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>About meta tags</title>
+	<!--<link rel="stylesheet" href="css/reset.css">-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<img class="header" src="http://theblogtime.com/wp-content/uploads/2015/08/leaning-on-meta-tags-large.jpg" alt="">
+		<table class="general">	
+			<tr>
+				<td class="general__meta meta"><span class="meta__header">Метатеги</span>
+					<img class="meta__picture" src="https://d1avok0lzls2w.cloudfront.net/img_uploads/meta-tags.jpg" alt="">
+				</td>
+				<td class="general__defenition defenition"> 
+					<span class="defenition__text">- это теги, содержащие в себе информацию, которая предназначена для браузеров, поисковых систем, программного обеспечения и сервисов, которые так или иначе могут взаимодействовать с веб-приложением (сайтом).</span>
+					<p class="defenition__text">Такие теги могут нести в себе описание страницы (например, ключевые слова и само описание), информацию об авторских правах или самом авторе, указания браузеру на какие-то внешние или внутренние механизмы обработки страницы и даже команды браузеру, а также правила «поведения» для поисковых систем.</p>
+					<p class="defenition__text">Мета теги должены находиться внутри <code>head</code> и быть в пределах 1024 первых байтов страницы, так как некоторые браузеры смотрят только на эти байты, перед тем как определить набор символов страницы.</p>
+				</td>
+			</tr>
+		</table>
+	<h2>Атрибуты мета тегов</h2>
+		<table>
+			<tr>
+				<td class="attributes">
+					<span class="attributes__types types"><code>charset</code></span>
+				</td>
+				<td  class="about">
+					<span class="about__meaning"> Стал поддерживаться с HTML 5. Этот атрибут задает кодировку символов, используемую на странице. Может быть локально переопределен. Рекомендуется использовать кодировку UTF-8.</span>
+				</td>
+			</tr>
+			<tr>
+				<td class="attributes">
+					<span class="attributes__types types"><code>content</code></span>
+				</td>
+				<td class="about">
+					<span class="about__meaning">Этот атрибут даёт значение, связанное с http-equiv или name атрибутами, зависящее от контекста.</span>
+				</td>
+			</tr>
+			<tr>
+				<td class="attributes">
+					<span class="attributes__types types"><code>http-equiv</code></span>
+				</td>
+				<td class="about">
+					<span class="about__meaning">Этот атрибут определяет поведение серверов и пользователей. Значение задается с помощью content и может быть следующим: </span>
+					<table>
+						<tr>
+							<td class="about__secondDefiniton">
+								<span><code>Content-Security-Policy</code></span>	
+							</td>
+							<td>
+								<span>Это значение позволит администратору веб-сайта определить политику содержания для обслуживаемых ресурсов. За некоторыми исключениями, политика в основном включают в себя указание происхождения сервера и конечные точки сценария. Это помогает предотвратить атаки межсайтового скриптинга.</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="about__secondDefiniton">
+								<span><code>Default-style</code></span>	
+							</td>
+							<td>
+								<span>Специализация этой прагмы - предпочтительный стиль таблиц, используемый на странице. <code>content</code> атрибут должен содержать заголовок <code>link</code> элемента который <code>href</code> связывает атрибут с CSS таблцей стилей, или заголовок  <code>style</code> элемента, который cодержит CSS таблицу стилей.</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="about__secondDefiniton">
+								<span><code>Refresh</code></span>	
+							</td>
+							<td>
+								<span>Эта прагма определяет: Количество секунд перезагрузки таблицы, если <code>content</code> атрибут содержит только положительный целочисленный номер; Время, в количестве секунд, за которое страница должна быть перенаправлена ​​на другую, если <code>content</code> атрибут содержит положительный целочисленный номер, заканчивающийся строкой 'url=' и корректный URL.</span>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="attributes">
+					<span class="attributes__types types"><code>name</code></span>
+				</td>
+				<td class="about">
+					<span class="about__meaning">Определяет метаданные, значения для которых задаются атрибутом content. Существуют следующие распространненые значения:</span>
+					<table>
+						<tr>
+							<td class="about__secondDefiniton">
+								<span><code>application</code></span>
+							</td>
+							<td>
+								<span>- name определяет имя веб-приложения, запущенного на веб-странице</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="about__secondDefiniton">
+								<span><code>author/creator</code></span>
+							</td>
+							<td>
+								<span> - определяет в свободном формате имя автора документа.</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="about__secondDefiniton">
+								<span><code>description</code></span>
+							</td>
+							<td>
+								<span> - краткое и точное резюме содержания страницы. В некоторых браузерах, среди которых Firefox и Opera, этот мета используется как описание страницы по умолчанию в закладке/span>
+							</td>
+						</tr>
+						<tr>
+							<td class="about__secondDefiniton">
+								<span><code>generator</code></span>
+							</td>
+							<td>
+								<span> - указывает имя программного обеспечения, которое использовалось при генерации данной страницы.</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="about__secondDefiniton">
+								<span><code>keywords</code></span>
+							</td>
+							<td>
+								<span>- указывает ключевые слова страницы (используется поисковыми системами при анализе страницы)</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="about__secondDefiniton">
+								<span><code>robots</code></span>
+							</td>
+							<td class="specialBottom">
+								<span> - определяет поведение, поисковых роботов нас транице. Значения для содержимого meta name="robots"</span>
+								<table class="thirdLevel"s>
+									<tr>
+										<td>
+											<span><code>index</code></span>
+										</td>
+										<td>
+											<span>Позволяет роботу индексировать страницу</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span><code>noindex</code></span>
+										</td>
+										<td>
+											<span>Освобождает робота от идексирования страниц</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span><code>follow</code></span>
+										</td>
+										<td>
+											<span>Позволяет роботу переходить по ссылкам со страницы</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span><code>nofollow</code></span>
+										</td>
+										<td>
+											<span>Запрещает роботу переходить по ссылкам со страницы</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span><code>none</code></span>
+										</td>
+										<td>
+											<span>Эквивалетно noindex, nofollow</span>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td class="about__secondDefiniton">
+								<span><code>googlebot</code></span>
+							</td>
+							<td>
+								<span> - аналог robots, но только следует за Googlebot, сканирует индексы для Google;</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="about__secondDefiniton">
+								<span><code>slurp</code></span>
+							</td>
+							<td>
+								<span> - аналог robots, но следует только за Slurp, индексирующим роботом от Yahoo Search;</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="about__secondDefiniton">
+								<span><code>publisher</code></span>
+							</td>
+							<td>
+								<span>- определяет в свободном формате имя того, кто опубликовал документ</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="about__secondDefiniton">
+								<span><code>viewport</code></span>
+							</td>
+							<td class="specialBottom">
+								<span>- дает подсказки о размере изначального размера viewport. Эта прагма используется только на некоторых мобильных устройствах. Значения для содержимого meta name="viewport"</span>
+								<table>
+									<tr>
+										<td>
+											<span><code>width</code></span>
+										</td>
+										<td>
+											<span>- Определяет ширину области просмотра в пикселях</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span><code>height</code></span>
+										</td>
+										<td>
+											<span>- Определяет высоту области просмотра в пикселях</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span><code>initial-scale</code></span>
+										</td>
+										<td>
+											<span> - Определяет соотношение между шириной устройства и размером области просмотра</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span><code>maximum-scale</code></span>
+										</td>
+										<td>
+											<span>- Определяет максимальное значение зума</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span><code>minimum-scale</code></span>
+										</td>
+										<td>
+											<span>- Определяет минимальное значение зума</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span><code>user-scalable</code></span>
+										</td>
+										<td>
+											<span> - (доступны значения - да или нет) если нет, то пользователю не доступен зум на веб-странице. По умолчанию задано значение да. Cпециальные значение от соц сетй - для более корректной работы с роботами соц сетей</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span><code>Cпециальные значение для соц сетей</code></span>
+										</td>
+										<td>
+											<span> - для более корректной работы с роботами соц сетей</span>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="attributes">
+					<span class="attributes__types types"><code>scheme</code></span>
+				</td>
+				<td  class="about">
+					<span class="about__meaning"> НЕ ПОДДЕРЖИВАЕТСЯ В HTML 5. Указывает полезную информацию о схеме или название самой схемы, которая должна быть использована для интерпретации значения свойства</span>
+				</td>
+			</tr>		 
+		</table>
+
+</body>
+</html>
