@@ -1,0 +1,79 @@
+@media screen and (max-width: 414px) {
+	/* header */
+
+	.logocontainer__logo {
+		height: 40vh;
+	}
+
+	h1 {
+		font-size: 1.5rem;
+		margin: 3rem 0;
+	}
+
+	/* section about me */
+
+	.about-me__details {
+		flex-direction: column;
+		padding: 2rem 1rem;
+	}
+
+	.foto__picture {
+		display: none;
+	}
+
+	.text__capital {
+		font-size: 2.5rem;
+	}
+
+	.text__description {
+		font-size: 1rem;
+		line-height: 1.75rem;
+	}
+
+	.text__sign {
+		font-size: 1.5rem;
+	}
+
+	/* section gallery */
+
+	.text__capital--white {
+		font-size: 2.5rem;
+	}
+
+	.portfolio__container {
+		padding-bottom: 2rem;
+	}
+
+	.portfolio__container img {
+		width: 90%;
+		padding: 1rem 0;
+	}
+
+	.portfolio__container img:nth-child(3),
+	.portfolio__container img:nth-child(4),
+	.portfolio__container img:nth-child(7) {
+		display: none;
+	}
+
+	/* footer */
+
+	.footer__contacts {
+		padding: 5rem;
+	}
+
+	.contacts__headers {
+		font-size: 1rem;
+		padding: 3rem 0;
+	}
+
+	.contacts__links {
+		font-size: 1.5rem;
+		letter-spacing: 0.3rem;
+	}
+
+	.created__by {
+		font-size: 0.7rem;
+		padding: 1rem 0;
+	}
+
+}

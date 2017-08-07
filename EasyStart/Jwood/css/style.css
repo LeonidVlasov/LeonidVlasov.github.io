@@ -5,14 +5,42 @@
 	cursor: auto;
 }
 
-a {
-	text-decoration: none;
-}
-
 .wrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+/* container with double arrow */
+.scrollcontainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 3rem;
+}
+
+.scrollcontainer__text {
+	font-family: 'nexa', sans-serif ;
+	font-weight: 600;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	color: #dddedf;
+	margin: 3rem 0 0.5rem;
+}
+
+.link__double-arrow {
+	display: block;
+	position: relative;
+	background-image: url(../images/double-arrow.png);
+	background-repeat: no-repeat;
+	height: 2.9rem;
+	width: 2rem;
+}
+
+.link__double-arrow:hover {
+	top: 0.4rem;
+	/* transition-timing-function: ease-out;
+	transition-duration: 1s; */
 }
 
 /* header */
@@ -50,7 +78,7 @@ header {
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #cecece;
-	font-family: 'nexa',sans-serif ;
+	font-family: 'nexa', sans-serif ;
 }
 
 .item__link:hover {
@@ -61,45 +89,26 @@ header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 10rem 0 0;
+	padding: 6.5rem 0 0;
 }
 
 .logocontainer__logo {
 	display: block;
-	height: 50vh;
-}
-
-h1 {
-	font-size: 3rem;
-	text-transform: uppercase;
-	color: white;
-	font-weight: 100;
-	margin-top: 3rem;
+	height: 35vh;
 }
 
 .name-bold {
-	font-weight: 900;
+	font-family: 'nexa', sans-serif ;
+	font-weight: 600;
 }
 
-.header__scrollcontainer {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding-bottom: 2rem;
-}
 
-.scrollcontainer__text {
-	font-size: 1.1rem;
+h1 {
+	font-family: 'nexa', sans-serif ;
+	font-size: 3.75rem;
 	text-transform: uppercase;
-	color: #dddedf;
-	margin-bottom: 1rem;
-}
-
-.scrollcontainer__double-arrow {
-	background-image: url(../images/double-arrow.png);
-	background-repeat: no-repeat;
-	height: 2.9rem;
-	width: 2rem;
+	color: white;
+	margin: 3rem 0;
 }
 
 /* section about me */
@@ -108,14 +117,12 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	
 }
 
 .about-me__details {
 	display: flex;
 	width: 100%;
-	/* margin-bottom: 4rem; */
-	padding: 10rem 5rem 5rem;
+	padding: 10rem 4rem 0;
 }
 
 .details__foto,
@@ -135,23 +142,31 @@ h1 {
 }
 
 .text__capital {
+	font-family: 'nexa', sans-serif ;
 	font-size: 3.75rem;
 	text-transform: uppercase;
 	letter-spacing: 0.3rem;
 }
 
-.text__description,
-.text__description--moved {
+.text__description {
+	font-family: "open sans", sans-serif;
+	font-weight: 100;
 	font-size: 1.5rem;
 	line-height: 2.5rem;
+	padding: 2rem 0;
 }
+
+.text__description--moved {
+	padding-top: 0;
+}
+
 
 .text__sign {
 	font-size: 2.25rem;
 	font-family: 'woman',sans-serif ;
 }
 
-.scrollcontainer__double-arrow--grey {
+.text--grey {
 	color: #bebebe;
 }
 
@@ -211,6 +226,8 @@ footer{
 }
 
 .contacts__headers {
+	font-family: 'nexa', sans-serif ;
+	font-weight: 600;
 	font-size: 2.9rem;
 	font-style: bold;
 	text-transform: uppercase;
@@ -218,6 +235,7 @@ footer{
 }
 
 .contacts__links {
+	font-family: 'nexa', sans-serif ;
 	font-size: 3.75rem;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -243,6 +261,7 @@ footer{
 }
 
 .created__by {
+	font-family: 'nexa', sans-serif ;
 	font-size: 1.1rem;
 	text-transform: uppercase;
 	color: #cecece;
