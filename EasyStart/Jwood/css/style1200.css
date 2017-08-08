@@ -29,7 +29,7 @@ section {
 }
 
 .scrollcontainer__text {
-	font-family: 'nexa', sans-serif ;
+	font-family: 'Nexa', sans-serif ;
 	font-weight: 600;
 	font-size: 1.1rem;
 	text-transform: uppercase;
@@ -89,7 +89,7 @@ header {
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #cecece;
-	font-family: 'nexa', sans-serif ;
+	font-family: 'Nexa', sans-serif ;
 }
 
 .item__link:hover {
@@ -108,13 +108,13 @@ header {
 }
 
 .name-bold {
-	font-family: 'nexa', sans-serif ;
+	font-family: 'Nexa', sans-serif ;
 	font-weight: 600;
 }
 
 
 h1 {
-	font-family: 'nexa', sans-serif ;
+	font-family: 'Nexa', sans-serif ;
 	font-size: 3.75rem;
 	text-transform: uppercase;
 	color: white;
@@ -153,14 +153,14 @@ h1 {
 }
 
 .text__capital {
-	font-family: 'nexa', sans-serif ;
+	font-family: 'Nexa', sans-serif ;
 	font-size: 3.75rem;
 	text-transform: uppercase;
 	letter-spacing: 0.3rem;
 }
 
 .text__description {
-	font-family: "open sans", sans-serif;
+	font-family: "Sans", sans-serif;
 	font-weight: 100;
 	font-size: 1.5rem;
 	line-height: 2.5rem;
@@ -174,7 +174,7 @@ h1 {
 
 .text__sign {
 	font-size: 2.25rem;
-	font-family: 'woman',sans-serif ;
+	font-family: 'Woman',sans-serif ;
 }
 
 .text--grey {
@@ -236,7 +236,7 @@ footer{
 }
 
 .contacts__headers {
-	font-family: 'nexa', sans-serif ;
+	font-family: 'Nexa', sans-serif ;
 	font-weight: 600;
 	font-size: 2.9rem;
 	font-style: bold;
@@ -245,7 +245,7 @@ footer{
 }
 
 .contacts__links {
-	font-family: 'nexa', sans-serif ;
+	font-family: 'Nexa', sans-serif ;
 	font-size: 3.75rem;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -271,7 +271,7 @@ footer{
 }
 
 .created__by {
-	font-family: 'nexa', sans-serif ;
+	font-family: 'Nexa', sans-serif ;
 	font-size: 1.1rem;
 	text-transform: uppercase;
 	color: #cecece;
