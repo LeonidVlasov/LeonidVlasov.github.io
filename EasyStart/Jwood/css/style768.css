@@ -1,4 +1,5 @@
 @media screen and (max-width: 768px) {
+	.header__menu,
 	.scrollcontainer__text,
 	.arrow--grey,
 	.portfolio__container img:nth-child(2),
@@ -11,33 +12,14 @@
 	width: 50%;
 	}
 
-		/* header */
-
-	.logocontainer__logo {
-		height: 40vh;
+	section {
+		padding: 5rem 2rem;
 	}
 
 	h1 {
-		font-size: 2rem;
+		font-size: 2.1rem;
 		margin: 3rem 0;
 	}
-
-	/* section about me */
-
-	.about-me__details {
-	padding: 4rem 2rem 0;
-	}
-
-	/* section gallery */
-
-	.portfolio {
-		padding: 0 2rem;
-	}
-
-	.text__capital--white {
-		padding: 5rem 0 2rem;
-	}
-
 
 	/* footer */
 

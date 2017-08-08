@@ -1,20 +1,17 @@
 @media screen and (max-width: 414px) {
 	/* header */
-
-	.logocontainer__logo {
-		height: 40vh;
-	}
-
 	h1 {
 		font-size: 1.5rem;
 		margin: 3rem 0;
 	}
 
-	/* section about me */
+	.logocontainer__logo {
+	height: 30vh;
+}
 
+	/* section about me */
 	.about-me__details {
 		flex-direction: column;
-		padding: 2rem 1rem;
 	}
 
 	.foto__picture {
