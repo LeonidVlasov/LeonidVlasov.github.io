@@ -1,12 +1,13 @@
 @media screen and (max-width: 414px) {
+
 	/* header */
 	h1 {
-		font-size: 1.5rem;
+		font-size: 1.1rem;
 		margin: 3rem 0;
 	}
 
 	.logocontainer__logo {
-	height: 30vh;
+	height: 20vh;
 }
 
 	/* section about me */
@@ -24,7 +25,7 @@
 
 	.text__description {
 		font-size: 1rem;
-		line-height: 1.75rem;
+		line-height: 1.2rem;
 	}
 
 	.text__sign {
@@ -34,7 +35,7 @@
 	/* section gallery */
 
 	.text__capital--white {
-		font-size: 2.5rem;
+		font-size: 1.5rem;
 	}
 
 	.portfolio__container {
@@ -59,17 +60,17 @@
 	}
 
 	.contacts__headers {
-		font-size: 1rem;
+		font-size: 0.5rem;
 		padding: 3rem 0;
 	}
 
 	.contacts__links {
-		font-size: 1.5rem;
-		letter-spacing: 0.3rem;
+		font-size: 0.8rem;
+		letter-spacing: 0;
 	}
 
 	.created__by {
-		font-size: 0.7rem;
+		font-size: 0.5rem;
 		padding: 1rem 0;
 	}
 

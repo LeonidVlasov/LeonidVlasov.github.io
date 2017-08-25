@@ -14,7 +14,7 @@
 	src: url('../fonts/NexaBold.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/NexaBold.woff') format('woff'),
 		url('../fonts/NexaBold.ttf') format('truetype');
-	font-weight: bold;
+	font-weight: 600;
 	font-style: normal;
 }
 
