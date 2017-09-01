@@ -310,6 +310,10 @@ a:hover {
 	margin: 0 2rem;
 }
 
+.only-ontab {
+	display: none;
+}
+
 .gallery-hoverffect__effect {
 	opacity: 0;
 	flex-direction: column;

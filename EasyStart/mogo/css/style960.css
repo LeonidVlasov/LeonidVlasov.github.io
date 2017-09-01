@@ -5,6 +5,10 @@
 		width: 90%;
 	}
 
+	.section {
+		padding: 5rem 0;
+	}
+
 	.foto-block__text {
 		text-align: center;
 	}
