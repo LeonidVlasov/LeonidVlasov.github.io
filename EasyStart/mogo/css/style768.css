@@ -15,13 +15,10 @@
 
 	.head {
 		position: relative;
-		justify-content: center;
-		height: 80vh;
+		height: 50vh;
 	}
 
 	.head__header {
-		position: absolute;
-		top: 2rem;
 		justify-content: space-between;
 	}
 	
@@ -34,23 +31,15 @@
 	}
 
 	.welcome__mission {
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 
 	.welcome__tomogo {
-		font-size: 8rem;
+		font-size: 5.5rem;
 	}
 
-	.list__part {
-		padding: 0.5rem 0;
-	}
-
-	.part__numbers {
-		font-size: 1.8rem;
-	}
-
-	.part__letters {
-		font-size: 1.2rem;
+	.list__backgrounds {
+		display: none;
 	}
 
 	.gallery-hoverffect__item {
@@ -82,72 +71,9 @@
 		display: none;
 	}
 
-	/* hover cancelling */
-	.logo__name:hover,
-	.title__link:hover,
-	.button__link:hover,
-	.list__part:hover {
-		color: inherit;
-	}
-
-	.button__link:hover {
-		border: 0.2rem solid #fff;
-	}
-
-	.list__part:hover {
-		border-top: 0.2rem solid #fff;
-		cursor: pointer;
-	}
-
-	.effect__link:hover {
-		color: #999;
-	}
-
-	.gallery-hoverffect__item:hover {
-  		transform: none;
-  		box-shadow: none;
-	}
-
-	.gallery-hoverffect__item:hover:after {
+	.img-in-img__iphone {
 		display: none;
 	}
-
-	.gallery-hoverffect__item:hover .gallery-hoverffect__effect {
-		display: inherit;
-	}
-
-	.team__effect--fb:hover,
-	.team__effect--twit:hover,
-	.team__effect--pint:hover,
-	.team__effect--inst:hover {
-		background-color: inherit;
-	}
-
-	.team__effect--fb:hover {
-		background-image: url(../images/sixthpage-pics/icons/facebook-painted.png);
-	}
-	
-	.team__effect--twit:hover{
-		background-image: url(../images/sixthpage-pics/icons/twitter-painted.png);
-	}
-
-	.team__effect--pint:hover {
-		background-image: url(../images/sixthpage-pics/icons/pinterest-painted.png);
-	}
-
-	.team__effect--inst:hover {
-		background-image: url(../images/sixthpage-pics/icons/instagram-painted.png);
-	}
-
-	.big-gallery__foto-block:hover .foto-block__text {
- 		 display: none;
-	}
-
-	.logo__name--grey:hover {
-		color: #ccc;
-	}
-	
-	/**/
 
 	.result__container {
 		flex-wrap: wrap;
@@ -383,6 +309,67 @@
 		font-weight: 600;
 		margin: 0;
 	}
+
+	/* hover cancelling */
+	.logo__name:hover,
+	.title__link:hover,
+	.button__link:hover {
+		color: inherit;
+	}
+
+	.button__link:hover {
+		border: 0.2rem solid #fff;
+	}
+
+	.effect__link:hover {
+		color: #999;
+	}
+
+	.gallery-hoverffect__item:hover {
+  		transform: none;
+  		box-shadow: none;
+	}
+
+	.gallery-hoverffect__item:hover:after {
+		display: none;
+	}
+
+	.gallery-hoverffect__item:hover .gallery-hoverffect__effect {
+		display: flex;
+	}
+
+	.team__effect--fb:hover,
+	.team__effect--twit:hover,
+	.team__effect--pint:hover,
+	.team__effect--inst:hover {
+		background-color: inherit;
+	}
+
+	.team__effect--fb:hover {
+		background-image: url(../images/sixthpage-pics/icons/facebook-painted.png);
+	}
+	
+	.team__effect--twit:hover{
+		background-image: url(../images/sixthpage-pics/icons/twitter-painted.png);
+	}
+
+	.team__effect--pint:hover {
+		background-image: url(../images/sixthpage-pics/icons/pinterest-painted.png);
+	}
+
+	.team__effect--inst:hover {
+		background-image: url(../images/sixthpage-pics/icons/instagram-painted.png);
+	}
+
+	.big-gallery__foto-block:hover .foto-block__text {
+ 		 display: none;
+	}
+
+	.logo__name--grey:hover {
+		color: #ccc;
+	}
+	
+	/**/
 
 
 }	
